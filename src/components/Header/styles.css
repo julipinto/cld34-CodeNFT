@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+
+  & ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 2rem;
+    font-size: 20px;
+
+    & a {
+      cursor: pointer;
+
+      &:hover,
+      &:focus {
+        color: #E025CE
+      }
+    }
+  }
+}

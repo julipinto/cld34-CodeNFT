@@ -1,0 +1,18 @@
+button {
+  padding: .8rem 2rem;
+  background-color: var(--secondary);
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  color: #030303;
+  font-weight: 600;
+
+
+  & .button-small {
+    font-size: 14;
+  };
+
+  & .button-medium {
+    font-size: 18;
+  };
+}

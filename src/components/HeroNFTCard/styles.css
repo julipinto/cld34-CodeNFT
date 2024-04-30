@@ -1,0 +1,11 @@
+.heroNFTCard {
+  /* background-color: white; */
+  width: 592px;
+  height: 481px;
+  border-radius: 6px;
+  border: 4px solid;
+  border-image-source: linear-gradient(138.34deg, rgba(224, 37, 206, 0.7) -11.36%, rgba(74, 237, 82, 0.7) 51.55%, rgba(189, 36, 230, 0.7) 113.16%);
+  background: linear-gradient(138.84deg, rgba(255, 255, 255, 0.132) -6.39%, rgba(143, 143, 143, 0.063) 112.17%);
+
+
+}
