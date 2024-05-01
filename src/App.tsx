@@ -1,3 +1,4 @@
+import { ReactLenis } from '@studio-freight/react-lenis'
 import './app.css'
 import Collectors from './components/Collectors'
 import Footer from './components/Footer'
@@ -9,14 +10,16 @@ import TopNFTCards from './components/TopNFTCards'
 function App() {
 
   return (
-    <main>
-      <Header />
-      <Hero />
-      <Stats />
-      <TopNFTCards />
-      <Collectors />
-      <Footer />
-    </main>
+    <ReactLenis root>
+      <main>
+        <Header />
+        <Hero />
+        <Stats />
+        <TopNFTCards />
+        <Collectors />
+        <Footer />
+      </main>
+    </ReactLenis>
   )
 }
 

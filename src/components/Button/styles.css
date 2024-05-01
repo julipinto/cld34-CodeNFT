@@ -16,7 +16,7 @@ button {
     padding: 1rem 3rem;
   }
 
-  &:hover {
-    /* filter: brightness(3); */
+  &:hover, &:focus {
+    background-color: var(--secondary-hover);
   }
 }

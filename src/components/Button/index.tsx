@@ -8,7 +8,7 @@ interface IButton {
 }
 
 function Button({ size, text, primary = true }: IButton) {
-  return <button className={clsx(`button-${size}`, primary && 'button-primary')}>
+  return <button className={clsx(`button-${size}`, primary && 'button-primary', 'smooth_transition')}>
     {text.toUpperCase()}
   </button>
 }
