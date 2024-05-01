@@ -18,6 +18,7 @@
   & p {
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 2rem;
   }
 
   & > .hero_nft_card {
@@ -29,7 +30,5 @@
     align-items: stretch;
     flex-direction: column;
     padding: 1rem;
-
-
   };
 }

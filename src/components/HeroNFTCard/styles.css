@@ -2,44 +2,7 @@
   width: 592px;
   height: 481px;
   border-radius: 6px;
-  z-index: -1;
-}
-
-.gradient_border::before {
-  content: "";
-  position: absolute;
-  width: inherit;
-  height: inherit;
-
-  border-radius: 10px; 
-
-  -webkit-mask: 
-     linear-gradient(#fff 0 0) content-box, 
-     linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-          mask-composite: exclude; 
-  z-index: 0;
-}
-
-.glassy_bg {
-  background: linear-gradient(138.84deg, rgba(255, 255, 255, 0.132) -6.39%, rgba(143, 143, 143, 0.063) 112.17%);
-}
-
-.g1::before {
-  background: linear-gradient(138.34deg, rgba(224, 37, 206, 0.7) -11.36%, rgba(74, 237, 82, 0.7) 51.55%, rgba(189, 36, 230, 0.7) 113.16%);
-  border-radius: 10px; 
-  padding: 4px; 
-  margin: -4px;
-  z-index: 0;
-}
-
-.g2::before {
-  background: linear-gradient(141.4deg, #E025CE -25.86%, #4AED52 140.08%);
-  border-radius: 4px; 
-  padding: 2px; 
-  margin: -3px;
-  z-index: 0;
-
+  position: relative;
 }
 
 .top1_card {

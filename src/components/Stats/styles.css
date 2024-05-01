@@ -1,0 +1,43 @@
+.stats {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  border-radius: 3px;
+
+  & > div {
+    display: flex;
+    gap: 5rem;
+  }
+
+  & div[class *= 'stats-']{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > strong {
+      font-size: 50px;
+      font-weight: 700;
+      font-family: Jura;
+    }
+
+    & > span {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    &:not(:last-child) {
+      &::after {
+        content: '';
+        position: absolute;
+        border-radius: 50%;
+        width: 2px;
+        height: 90px;
+        margin-left: 13rem;
+        /* background-color: red; */
+        background: linear-gradient(138.34deg, rgba(224, 37, 206, 0.7) -11.36%, rgba(74, 237, 82, 0.7) 51.55%, rgba(189, 36, 230, 0.7) 113.16%);;
+        /* padding-right: 2rem; */
+      }
+    }
+  }
+}
