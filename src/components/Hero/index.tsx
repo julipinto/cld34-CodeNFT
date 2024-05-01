@@ -16,7 +16,7 @@ function Hero() {
         <Button size="medium" text="explorar"/> 
       </div>
 
-      <div>
+      <div className="hero_nft_card">
         <HeroNFTCard />
       </div>
     </section>

@@ -1,0 +1,22 @@
+.top_nfts {
+  margin: 1rem 0; 
+
+  & > div:nth-child(1) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    & h2 {
+      font-size: 40px;
+      font-weight: 600;
+    }
+  }
+
+  & > div:nth-child(2) {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 2rem;
+  }
+}
