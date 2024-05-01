@@ -5,7 +5,7 @@ import './styles.css'
 
 function Collectors() {
   return (
-    <section>
+    <section id='collectors'>
       <div className='collectors_title'>
         <h2>Colecionadores</h2>
         <Button size='small' text='ver todos'/>

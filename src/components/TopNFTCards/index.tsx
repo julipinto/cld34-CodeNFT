@@ -9,7 +9,7 @@ const topNFTs = [
 
 function TopNFTCards() {
   return (
-    <section className='top_nfts'>
+    <section id='topNFTs' className='top_nfts'>
       <div>
         <h2>Top NFTs</h2>
       </div>

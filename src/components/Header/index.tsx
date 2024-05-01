@@ -32,10 +32,9 @@ function Header() {
       </div>
 
       <ul>
-        <li><a>Início</a></li>
-        <li><a>NFT</a></li>
-        <li><a>Colecionadores</a></li>
-        <li><a>Perguntas</a></li>
+        <li><a href='/'>Início</a></li>
+        <li><a href='#topNFTs'>NFT</a></li>
+        <li><a href='#collectors'>Colecionadores</a></li>
       </ul>
     </nav>
   )
