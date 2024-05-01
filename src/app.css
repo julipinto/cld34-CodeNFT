@@ -1,5 +1,8 @@
 main {
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
 
   @media (min-width: 576px) { 
     width: 576px;

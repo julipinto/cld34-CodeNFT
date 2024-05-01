@@ -34,9 +34,7 @@
         width: 2px;
         height: 90px;
         margin-left: 13rem;
-        /* background-color: red; */
-        background: linear-gradient(138.34deg, rgba(224, 37, 206, 0.7) -11.36%, rgba(74, 237, 82, 0.7) 51.55%, rgba(189, 36, 230, 0.7) 113.16%);;
-        /* padding-right: 2rem; */
+        background: linear-gradient(138.34deg, rgba(224, 37, 206, 0.7) -11.36%, rgba(74, 237, 82, 0.7) 51.55%, rgba(189, 36, 230, 0.7) 113.16%);
       }
     }
   }
