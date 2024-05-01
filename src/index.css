@@ -1,5 +1,9 @@
 :root {
-  --secondary: #F7FC0E
+  --secondary: #F7FC0E;
+}
+
+html {
+  width: 100%;
 }
 
 body {

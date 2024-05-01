@@ -1,11 +1,117 @@
-.heroNFTCard {
-  /* background-color: white; */
+.hero_nft_card {
   width: 592px;
   height: 481px;
   border-radius: 6px;
-  border: 4px solid;
-  border-image-source: linear-gradient(138.34deg, rgba(224, 37, 206, 0.7) -11.36%, rgba(74, 237, 82, 0.7) 51.55%, rgba(189, 36, 230, 0.7) 113.16%);
-  background: linear-gradient(138.84deg, rgba(255, 255, 255, 0.132) -6.39%, rgba(143, 143, 143, 0.063) 112.17%);
+  z-index: -1;
+}
 
+.gradient_border::before {
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: inherit;
+
+  border-radius: 10px; 
+
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude; 
+  z-index: 0;
+}
+
+.glassy_bg {
+  background: linear-gradient(138.84deg, rgba(255, 255, 255, 0.132) -6.39%, rgba(143, 143, 143, 0.063) 112.17%);
+}
+
+.g1::before {
+  background: linear-gradient(138.34deg, rgba(224, 37, 206, 0.7) -11.36%, rgba(74, 237, 82, 0.7) 51.55%, rgba(189, 36, 230, 0.7) 113.16%);
+  border-radius: 10px; 
+  padding: 4px; 
+  margin: -4px;
+  z-index: 0;
+}
+
+.g2::before {
+  background: linear-gradient(141.4deg, #E025CE -25.86%, #4AED52 140.08%);
+  border-radius: 4px; 
+  padding: 2px; 
+  margin: -3px;
+  z-index: 0;
 
 }
+
+.top1_card {
+  width: 93px;
+  height: 32px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  border-radius: 1px;
+}
+
+.nft_glow {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  background: linear-gradient(124.65deg, rgba(224, 37, 206, 0.48) 22.81%, rgba(74, 237, 82, 0.48) 98.66%);
+  z-index: -2;
+  filter: blur(90px);
+  opacity: .5;
+}
+
+.img_container {
+  width: 100%;
+  display: flex;
+  
+  & img {
+    z-index: 2;
+    margin: 0 auto;
+    margin-top: -57px;
+  }
+}
+
+footer {
+  gap: 0px;
+  border-radius: 0px 0px 6px 6px;
+  opacity: 0.6px;
+  background: linear-gradient(138.84deg, rgba(255, 255, 255, 0.201) -6.39%, rgba(255, 255, 255, 0.063) 112.17%);
+  
+  padding: 0.3rem 2.5rem;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & .footer_eth_title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  & section:nth-child(1) {
+    margin-top: 10px;
+  }
+
+  & .footer_eth_costumer {
+    opacity: .3;
+    font-weight: 400;
+  }
+
+  & .footer_eth_value {
+    display: flex;
+    margin-left: -15px;
+    margin-top: .5rem;
+    & span {
+      margin-top: 12px;
+    }
+  }
+}
+
+

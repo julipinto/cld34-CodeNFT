@@ -1,5 +1,4 @@
 button {
-  padding: .8rem 2rem;
   background-color: var(--secondary);
   cursor: pointer;
   border: none;
@@ -7,12 +6,17 @@ button {
   color: #030303;
   font-weight: 600;
 
+  &.button-small {
+    font-size: 14px;
+    padding: .8rem 2rem;
+  }
 
-  & .button-small {
-    font-size: 14;
-  };
+  &.button-medium {
+    font-size: 18px;
+    padding: 1rem 3rem;
+  }
 
-  & .button-medium {
-    font-size: 18;
-  };
+  &:hover {
+    /* filter: brightness(3); */
+  }
 }
