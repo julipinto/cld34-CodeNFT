@@ -1,4 +1,5 @@
 
+import { useGSAP } from '@gsap/react'
 import './styles.css'
 
 const topNFTs = [
@@ -8,6 +9,7 @@ const topNFTs = [
 ]
 
 function TopNFTCards() {
+  useGSAP((), )
   return (
     <section id='topNFTs' className='top_nfts'>
       <div>
