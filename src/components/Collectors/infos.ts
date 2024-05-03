@@ -1,6 +1,6 @@
 export const collectors = [
   {
-    imgPath: '/src/assets/img profile-2.png',
+    imgPath: '/src/assets/imgprofile-2.png',
     name: 'Amanda',
     volume: 230.38,
     root: 12.38,
@@ -8,7 +8,7 @@ export const collectors = [
     items: 138
   },
   {
-    imgPath: '/src/assets/img profile-1.png',
+    imgPath: '/src/assets/imgprofile-1.png',
     name: 'Fernando',
     volume: 230.38,
     root: 12.38,
@@ -16,7 +16,7 @@ export const collectors = [
     items: 119
   },
   {
-    imgPath: '/src/assets/img profile-3.png',
+    imgPath: '/src/assets/imgprofile-3.png',
     name: 'Bruna',
     volume: 230.38,
     root: 12.38,
@@ -24,7 +24,7 @@ export const collectors = [
     items: 102
   },
   {
-    imgPath: '/src/assets/img profle-4.png',
+    imgPath: '/src/assets/imgprofle-4.png',
     name: 'José',
     volume: 230.38,
     root: 12.38,
