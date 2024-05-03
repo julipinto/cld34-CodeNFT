@@ -20,9 +20,10 @@ function Collectors() {
 
         {collectors.map(
           ({imgPath, items, name, percentage, root, volume}, index) => {
+            const imgUrl = new URL(imgPath, import.meta.url).href
           return <tr key={`collector_item_${index}`}>
             <td className='left'>
-              <img src={imgPath} />
+              <img src={imgUrl} />
               {name}
             </td>
             <td className='right percent'>
