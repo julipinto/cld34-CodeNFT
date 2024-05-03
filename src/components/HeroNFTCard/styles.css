@@ -1,6 +1,5 @@
 .hero_nft_card {
   width: 592px;
-  height: 481px;
   border-radius: 6px;
   position: relative;
 
@@ -77,3 +76,9 @@
   }
 }
 
+
+@media (max-width: 768px)  {
+  .hero_nft_card {
+    max-width: 100%;
+  }
+}
