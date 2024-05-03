@@ -7,9 +7,9 @@ import { useGSAP } from "@gsap/react";
 import { useRef } from 'react';
 
 const topNFTs = [
-  '/public/assets/image 1.png',
-  '/public/assets/image 5.png',
-  '/public/assets/image 6.png'
+  '/assets/image 1.png',
+  '/assets/image 5.png',
+  '/assets/image 6.png'
 ]
 
 const id = 'topNFTs'
