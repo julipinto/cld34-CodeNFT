@@ -4,7 +4,7 @@ section#collectors {
   }
 
   @media (max-width: 768px)  {
-    & .only_g, .button-small {
+    & .button-small {
       display: none;
     }
 

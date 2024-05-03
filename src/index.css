@@ -84,3 +84,9 @@ code {
   transition-duration: 1s;
   transition-property: color, background-color;
 }
+
+@media (max-width: 768px)  {
+  & .only_g {
+    display: none;
+  }
+}
