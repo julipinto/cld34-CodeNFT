@@ -12,7 +12,7 @@ function Hero() {
   const textRef = useRef<HTMLDivElement>(null)
   const carfRef = useRef<HTMLDivElement>(null)
   const duration = 1
-  // const heroCarfRef = useRef()
+  
   useGSAP(() => {
     if(!textRef.current && !carfRef.current) return
 

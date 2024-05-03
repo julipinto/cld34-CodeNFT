@@ -15,8 +15,26 @@
   & > div:nth-child(2) {
     width: 100%;
     display: flex;
-    /* justify-content: space-between; */
     justify-content: center;
     gap: 2rem;
+
+    img {
+      object-fit: cover;
+    }
+  }
+
+  @media (max-width: 992px)  {
+    img[id *= 'top-nft-'] {
+      width: 312px;
+      height: 254px;
+      border-radius: 6px;
+    }
+  }
+
+  @media (max-width: 768px)  {
+    & > div:nth-child(2) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }

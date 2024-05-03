@@ -8,7 +8,6 @@ import Stats from './components/Stats'
 import TopNFTCards from './components/TopNFTCards'
 
 function App() {
-
   return (
     <ReactLenis root>
       <main>
