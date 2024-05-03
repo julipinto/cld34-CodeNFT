@@ -10,7 +10,7 @@ function HeroNFTCard() {
         <div className='top1_card gradient_border g2 glassy_bg'>
           Top 1
         </div>
-        <img src='src/assets/top1.png' />
+        <img src='/assets/top1.png' />
       </div>
       <footer>
         <section>
@@ -18,7 +18,7 @@ function HeroNFTCard() {
           <span className='footer_eth_costumer'>By Steeve Jobs</span>
 
           <div className='footer_eth_value'>
-            <img src='src/assets/ETH.svg' />
+            <img src='/assets/ETH.svg' />
            <span>18 ETH</span> 
           </div>
         </section>
