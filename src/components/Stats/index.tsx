@@ -34,6 +34,7 @@ function Stats() {
   
     const move = (elem: HTMLCollection) =>{
       const half_screen = width / 2
+      // @ts-ignore
       const half_elem_width = elem.offsetWidth / 2
       const sign = '+'
       const size_move = half_screen - half_elem_width - stat_mobile_gap
@@ -49,6 +50,7 @@ function Stats() {
         })
         .to(stat, {
           duration: 2,
+          // @ts-ignore
           x: move(stat),
           opacity: 1,
           ease: "power1.inOut",
@@ -68,6 +70,7 @@ function Stats() {
         })
         .to(stat, {
           duration: 2,
+          // @ts-ignore 
           x: move(stat),
           opacity: 1,
           ease: "power1.inOut",
