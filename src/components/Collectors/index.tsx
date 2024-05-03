@@ -14,8 +14,8 @@ function Collectors() {
         <tr>
           <th className='left'>Colecionadores</th>
           <th className='right' >Volume</th>
-          <th className='right' >Piso</th>
-          <th className='right' >Items</th>
+          <th className='right only_g' >Piso</th>
+          <th className='right only_g' >Items</th>
         </tr>
 
         {collectors.map(
@@ -29,16 +29,17 @@ function Collectors() {
               <span>{volume} ETH</span>
               <p>{percentage}</p>
             </td>
-            <td className='right percent'>
+            <td className='right percent only_g'>
               <span>{root} ETH</span>
               <p>{percentage}</p>
             </td>
-            <td className='right'>
+            <td className='right only_g'>
               <span>{items}</span>
             </td>
           </tr>
         })}
       </table>
+      <Button size='full' text='ver todos'/>
     </section>
   )
 }

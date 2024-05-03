@@ -16,6 +16,12 @@ button {
     padding: 1rem 3rem;
   }
 
+  &.button-full {
+    font-size: 18px;
+    padding: 1rem 3rem;
+    width: 100%;
+  }
+
   &:hover, &:focus {
     background-color: var(--secondary-hover);
   }

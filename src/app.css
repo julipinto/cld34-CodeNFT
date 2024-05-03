@@ -23,4 +23,8 @@ main {
   @media (min-width: 1400px) { 
     width: 1400px;
   };
+
+  & section {
+    padding: 0 8px;
+  }
 }

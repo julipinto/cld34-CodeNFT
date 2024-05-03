@@ -1,7 +1,24 @@
+section#collectors {
+  & > .button-full {
+    display: none;
+  }
+
+  @media (max-width: 768px)  {
+    & .only_g, .button-small {
+      display: none;
+    }
+
+    & > .button-full {
+      display: block;
+    }
+  }
+}
+
 .collectors_title {
   display: flex;
   justify-content: space-between;
   margin: 3rem 0;
+  gap: 8px;
 
   & h2 {
     margin: 0;
